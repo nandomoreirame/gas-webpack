@@ -1,0 +1,29 @@
+{
+  "opts": {
+    "encoding": "utf8",
+    "destination": "./docs/",
+    "verbose": true,
+    "recurse": true
+  },
+  "source": {
+    "include": [
+      "src/globals.js"
+    ]
+  },
+  "tags": {
+    "allowUnknownTags": false
+  },
+  "plugins": ["plugins/markdown"],
+  "templates": {
+    "default": {
+      "outputSourceFiles": false
+    }
+  },
+  "markdown.hardwrap": true,
+  "markdown": {
+    "hardwrap": true
+  },
+  "metadata": {
+    "title": "GAS Webpack"
+  }
+}
